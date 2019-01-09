@@ -1,0 +1,5 @@
+https://blog.csdn.net/forezp/article/details/81040946
+springcloud使用ribbon
+    https://www.fangzhipeng.com/springcloud/2018/08/30/sc-f4-hystrix/
+深入理解ribbon：
+    https://www.fangzhipeng.com/springcloud/2017/09/12/Ribbon-resources/

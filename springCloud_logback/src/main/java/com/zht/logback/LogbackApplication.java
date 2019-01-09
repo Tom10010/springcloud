@@ -1,0 +1,20 @@
+package com.zht.logback;
+
+import org.mybatis.spring.annotation.MapperScan;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.transaction.annotation.EnableTransactionManagement;
+
+@SpringBootApplication
+@EnableTransactionManagement   //开启事务管理
+@ComponentScan("com.zht.logback")
+@MapperScan("com.zht.logback.mapper")
+public class LogbackApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(LogbackApplication.class, args);
+	}
+
+}
+
